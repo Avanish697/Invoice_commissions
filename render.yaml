@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: invoice-commission-dashboard
+    env: docker
+    plan: free   # or use "starter" if you need more memory
+    region: oregon
+    dockerfilePath: Dockerfile
+    buildCommand: ""
+    startCommand: ""
